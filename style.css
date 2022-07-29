@@ -1,0 +1,100 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(imagens/bode-skull.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(24, 22, 22, 0.767);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+.logo-txt{
+    margin: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.menu-h li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu-h li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.menu-h li a:hover{
+    background-color:rgba(230, 230, 26, 0.938);
+    transition: .7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.H{
+    color: white;
+}
+
+.btn{
+    padding: 10px 8px;
+    width: 200px;
+    height: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    background: rgba(230, 230, 26, 0.938);
+    border: none;
+    border-radius: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgb(255, 255, 9);
+    transition: background .3s;
+}
+.btn:active {
+    background-color: rgba(230, 230, 26, 0.938);
+}
